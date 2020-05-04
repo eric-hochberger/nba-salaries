@@ -1,0 +1,8 @@
+---
+title: "Data Memo"
+author: "Eric Hochberger"
+date: "4/24/2020"
+output: html_document
+---
+
+I will be attempting to use NBA players' statistics to predict their salaries. I will be retrieving statistics from basketball-reference.com via [basketball-reference-web-scraper](https://pypi.org/project/basketball-reference-web-scraper/) and I will be retrieving salaries from [ESPN](espn.com) and joining these two datasets. While Basketball Reference has the salary data, they make it difficult to download it from their website and the scraper above does not have the capability to get around that. I am interested in prediction and this is a regression problem. My core data supports my question since salaries are continuous and since player salaries are generally perceived as reflections of their value which their on-court statistics should directly indicate. I may face issues in scraping any of the above information and I could face issues when joining the datasets as I plan to join them on player name. 
