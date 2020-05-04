@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "/Users/erichochberger/Desktop/Stat_301_03_Final_Project/.venv/bin/python3",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false
+}
